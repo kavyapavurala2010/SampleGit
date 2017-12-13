@@ -12,6 +12,7 @@
 		D05300321FE0F38900E38E8B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D05300301FE0F38900E38E8B /* Main.storyboard */; };
 		D05300341FE0F38900E38E8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D05300331FE0F38900E38E8B /* Assets.xcassets */; };
 		D05300371FE0F38900E38E8B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D05300351FE0F38900E38E8B /* LaunchScreen.storyboard */; };
+		D053003F1FE0F3BE00E38E8B /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D053003E1FE0F3BE00E38E8B /* ViewController2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		D05300331FE0F38900E38E8B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D05300361FE0F38900E38E8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D05300381FE0F38900E38E8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D053003E1FE0F3BE00E38E8B /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				D053002C1FE0F38900E38E8B /* AppDelegate.swift */,
 				D053002E1FE0F38900E38E8B /* ViewController.swift */,
+				D053003E1FE0F3BE00E38E8B /* ViewController2.swift */,
 				D05300301FE0F38900E38E8B /* Main.storyboard */,
 				D05300331FE0F38900E38E8B /* Assets.xcassets */,
 				D05300351FE0F38900E38E8B /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			files = (
 				D053002F1FE0F38900E38E8B /* ViewController.swift in Sources */,
 				D053002D1FE0F38900E38E8B /* AppDelegate.swift in Sources */,
+				D053003F1FE0F3BE00E38E8B /* ViewController2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +281,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L8Z5X5Y5Y3;
 				INFOPLIST_FILE = SampleGit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mobicloud.SampleGit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -292,6 +297,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L8Z5X5Y5Y3;
 				INFOPLIST_FILE = SampleGit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mobicloud.SampleGit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
